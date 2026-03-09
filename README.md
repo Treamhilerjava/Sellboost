@@ -77,6 +77,12 @@ items:
   - path: "Mobs.page1.items.2"
     display: "String"
 
+# Notification types — enable or disable each independently
+notifications:
+  actionbar: true   # persistent bar above hotbar showing boosted items live
+  chat: true        # chat message broadcast on boost start and end
+  title: true       # title screen on boost start and end
+
 # Actionbar display
 display:
   actionbar_format: "&6BOOST: &e{items}"
